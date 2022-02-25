@@ -1,0 +1,15 @@
+{
+  "name": "minhas-faltas-siga",
+  "version": "1.0.0",
+  "description": "Transformando as faltas do SIGA (Fatec) em uma API consumível",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roger Bernardo de Melo Lima | @rbmelolima",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "puppeteer": "^13.4.0"
+  }
+}
