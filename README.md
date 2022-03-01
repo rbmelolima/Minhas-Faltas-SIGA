@@ -22,5 +22,61 @@ SIGA_SENHA=
 
 Feito isso, inicie o npm e dê início ao script.
 
+## Exemplo de retorno
+A seguir, um exemplo do objeto de faltas parciais do SIGA
+
+```
+{
+  AGO005: {
+    abbreviation: 'AGO005',
+    name: 'Gestão de Projetos',
+    presences: '4',
+    absences: '0'
+  },
+  AGR101: {
+    abbreviation: 'AGR101',
+    name: 'Gestão de Equipes',
+    presences: '2',
+    absences: '0'
+  },
+  IBD100: {
+    abbreviation: 'IBD100',
+    name: 'Laboratório de Banco de Dados (Escolha 1)',
+    presences: '0',
+    absences: '0'
+  },
+  IES301: {
+    abbreviation: 'IES301',
+    name: 'Laboratório de Engenharia de Software',
+    presences: '12',
+    absences: '0'
+  },
+  ILP530: {
+    abbreviation: 'ILP530',
+    name: 'Eletiva - Linguagem de Programação III - Linguagem JAVA',
+    presences: '8',
+    absences: '0'
+  },
+  IRC008: {
+    abbreviation: 'IRC008',
+    name: 'Redes de Computadores',
+    presences: '0',
+    absences: '0'
+  },
+  ISG003: {
+    abbreviation: 'ISG003',
+    name: 'Segurança da Informação',
+    presences: '4',
+    absences: '0'
+  },
+  MPL001: {
+    abbreviation: 'MPL001',
+    name: 'Programação Linear e Aplicações',
+    presences: '8',
+    absences: '0'
+  }
+}
+```
+
 ## Links
 - [SIGA](https://siga.cps.sp.gov.br/aluno/login.aspx): Site institucional da Fatec feito para consumo dos alunos.
