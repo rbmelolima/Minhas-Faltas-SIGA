@@ -1,5 +1,4 @@
 # Minhas faltas do SIGA
-## Motivação
 Como um aluno bem aplicado, gostaria de gerenciar minhas faltas no SIGA de maneira rápida e eficiente. 
 
 Como um desenvolvedor, gostaria de experimentar a experiência de uma extração e limpeza de dados da Web, e para tanto, estou usando o Pupperteer e Node.js
@@ -11,6 +10,13 @@ Como um desenvolvedor, gostaria de experimentar a experiência de uma extração
 - [ ] Criação de API com Express (MVP2) 
 - [ ] Disponibilizar a API no Heroku (MVP3)
 - [ ] Elaborar forma de consumo de front end (MVP4)
+
+## Ambiente de desenvolvimento
+- Tenha o Node.js instalado na versão v16.14.0 ou superior.
+- Tenha o npm ou o yarn instalado para baixar as dependências.
+
+## Comandos
+- `npm start`: roda o script principal de raspagem de dados
 
 ## Como usar
 Para o MVP1, crie um arquivo .env na raiz do projeto com os seguintes dados:

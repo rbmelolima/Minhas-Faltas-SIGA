@@ -4,7 +4,7 @@
   "description": "Transformando as faltas do SIGA (Fatec) em uma API consumível",
   "main": "lib/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node lib/main.js"
   },
   "author": "Roger Bernardo de Melo Lima | @rbmelolima",
   "license": "ISC",
