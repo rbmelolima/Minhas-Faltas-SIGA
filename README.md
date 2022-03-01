@@ -11,14 +11,13 @@ Como um desenvolvedor, gostaria de experimentar a experiência de uma extração
 - [ ] Disponibilizar a API no Heroku (MVP3)
 - [ ] Elaborar forma de consumo de front end (MVP4)
 
-## Ambiente de desenvolvimento
+## Iniciando
+É importante que você:
+
 - Tenha o Node.js instalado na versão v16.14.0 ou superior.
 - Tenha o npm ou o yarn instalado para baixar as dependências.
 
-## Comandos
-- `npm start`: roda o script principal de raspagem de dados
-
-## Como usar
+### Arquivo de credenciais
 Para o MVP1, crie um arquivo .env na raiz do projeto com os seguintes dados:
 
 ```
@@ -26,7 +25,19 @@ SIGA_USUARIO=
 SIGA_SENHA=
 ```
 
-Feito isso, inicie o npm e dê início ao script.
+### Instalando
+```bash
+# Clonando o repositório
+$ https://github.com/rbmelolima/Minhas-Faltas-SIGA
+
+# Navegue até ele e instale todas as dependências
+$ npm i
+
+# Crie o arquivo .env com suas credenciais
+
+# Inicie a aplicação
+$ npm start
+```
 
 ## Exemplo de retorno
 A seguir, um exemplo do objeto de faltas parciais do SIGA
