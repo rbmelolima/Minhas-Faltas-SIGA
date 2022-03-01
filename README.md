@@ -6,7 +6,7 @@ Como um desenvolvedor, gostaria de experimentar a experiência de uma extração
 
 ## Objetivos
 - [x] Obter todos os dados referentes à faltas parciais
-- [ ] Limpeza dos dados que vem no HTML
+- [x] Limpeza dos dados que vem no HTML
 - [ ] Refatoração do código (MVP1)
 - [ ] Criação de API com Express (MVP2) 
 - [ ] Disponibilizar a API no Heroku (MVP3)
