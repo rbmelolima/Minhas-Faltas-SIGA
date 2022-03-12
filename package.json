@@ -2,7 +2,7 @@
   "name": "minhas-faltas-siga",
   "version": "1.0.0",
   "description": "Transformando as faltas do SIGA (Fatec) em uma API consumível",
-  "main": "lib/main.js",
+  "main": "lib/main/main.mjs",
   "type": "module",
   "scripts": {
     "test": "nodemon lib/main/main.mjs",
