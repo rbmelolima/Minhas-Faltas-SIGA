@@ -5,7 +5,8 @@
   "main": "lib/main.js",
   "type": "module",
   "scripts": {
-    "start": "node lib/main.mjs"
+    "test": "nodemon lib/main/main.mjs",
+    "start": "node lib/main/main.mjs"
   },
   "author": "Roger Bernardo de Melo Lima | @rbmelolima",
   "license": "ISC",

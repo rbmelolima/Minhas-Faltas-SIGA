@@ -6,10 +6,24 @@ Como um desenvolvedor, gostaria de experimentar a experiência de uma extração
 ## Objetivos
 - [x] Obter todos os dados referentes à faltas parciais
 - [x] Limpeza dos dados que vem no HTML
-- [x] Refatoração do código (MVP1)
-- [x] Criação de API com Express (MVP2) 
+- [ ] Refatoração do código (MVP1)
+- [ ] Criação de API com Express (MVP2) 
 - [ ] Disponibilizar a API no Heroku (MVP3)
 - [ ] Elaborar forma de consumo de front end (MVP4)
+
+## Iniciando
+É importante que você:
+
+- Tenha o Node.js instalado na versão v16.14.0 ou superior.
+- Tenha o npm ou o yarn instalado para baixar as dependências.
+
+### Arquivo de credenciais
+Para o MVP1, crie um arquivo .env na raiz do projeto com os seguintes dados:
+
+```
+SIGA_USUARIO=
+SIGA_SENHA=
+```
 
 ### Instalando
 ```bash
@@ -23,21 +37,6 @@ $ npm i
 
 # Inicie a aplicação
 $ npm start
-```
-## Iniciando
-É importante que você:
-
-- Tenha o Node.js instalado na versão v16.14.0 ou superior.
-- Tenha o npm ou o yarn instalado para baixar as dependências.
-- Tenha uma forma de consumir uma API, seja com o Postman, Imsomnia, ou outro de sua preferência.
-
-Inicie a aplicação com `npm start` e, com o cliente de sua preferência, faça uma requisição do tipo POST para `http://localhost:3000/faltas-parciais` passando como corpo da requisição o JSON dessa forma: 
-
-```json
-{
-    "userId": "SUA_MATRÍCULA",
-    "password": "SUA_SENHA"
-}
 ```
 
 ## Exemplo de retorno
